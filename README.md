@@ -10,10 +10,9 @@ Este projeto faz parte do Challenge de DevOps & Cloud Computing, com foco em con
 - Entity Framework Core
 - Docker
 - Azure CLI
-- Banco de dados: H2 (ou Oracle, dependendo da sua escolha)
+- Banco de dados: Oracle
 - GitHub
 - Draw.io (Arquitetura)
-- YouTube (Demonstração)
 
 ---
 
