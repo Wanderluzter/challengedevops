@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/leonardo/challengedotnet/challengedotnet.csproj": {}
+    "/home/leonardo/challengedevops/challengedotnet.csproj": {}
   },
   "projects": {
-    "/home/leonardo/challengedotnet/challengedotnet.csproj": {
+    "/home/leonardo/challengedevops/challengedotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/challengedotnet/challengedotnet.csproj",
+        "projectUniqueName": "/home/leonardo/challengedevops/challengedotnet.csproj",
         "projectName": "challengedotnet",
-        "projectPath": "/home/leonardo/challengedotnet/challengedotnet.csproj",
+        "projectPath": "/home/leonardo/challengedevops/challengedotnet.csproj",
         "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/challengedotnet/obj/",
+        "outputPath": "/home/leonardo/challengedevops/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/leonardo/.nuget/NuGet/NuGet.Config"

@@ -10,11 +10,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapGet("/motos", async (AppDbContext db) => await db.Motos.ToListAsync())
 .WithName("GetAllMotos")
@@ -87,4 +84,5 @@ app.MapDelete("/moto/{id}", async (AppDbContext db, string id) =>
 .WithDescription("Deleta uma moto")
 .WithTags("Motos");
 
-app.Run();
+app.Run("http://0.0.0.0:5087");
+

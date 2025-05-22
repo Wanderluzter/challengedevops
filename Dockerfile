@@ -13,5 +13,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0-preview AS runtime
 WORKDIR /app
 COPY --from=build /app/out ./
 
-EXPOSE 8080
-ENTRYPOINT ["dotnet", "dotnetbackend.dll"]
+ENV ASPNETCORE_URLS=http://+:5087
+
+EXPOSE 5087
+ENTRYPOINT ["dotnet", "challengedotnet.dll"]
