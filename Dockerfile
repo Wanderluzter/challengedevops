@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0-preview AS runtime
 WORKDIR /app
 
 # Instalar dnsutils e outras ferramentas de rede
-RUN apt-get update && apt-get install -y dnsutils iputils-ping curl netcat && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y dnsutils iputils-ping curl netcat-openbsd && rm -rf /var/lib/apt/lists/*
 
 COPY --from=build /app/out ./
 
